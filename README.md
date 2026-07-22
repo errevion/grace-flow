@@ -4,6 +4,47 @@
 
 This repository functions as a boilerplate/base template for structured, spec-driven AI-assisted development workflows using **OpenCode**, **OpenSpec**, and **CodeGraph** to automate and guide AI coding agents.
 
+## Prerequisites
+
+Before starting, you must install the following tools globally on your machine:
+
+### 1. [OpenCode](https://github.com/anomalyco/opencode)
+The open source coding agent.
+- **Install via npm**:
+  ```bash
+  npm i -g opencode-ai@latest
+  ```
+- **Install via curl**:
+  ```bash
+  curl -fsSL https://opencode.ai/install | bash
+  ```
+- **Install via Homebrew**:
+  ```bash
+  brew install anomalyco/tap/opencode
+  ```
+
+### 2. [OpenSpec](https://github.com/Fission-AI/openspec)
+Spec-driven development (SDD) framework.
+- **Install via npm**:
+  ```bash
+  npm install -g @fission-ai/openspec@latest
+  ```
+
+### 3. [CodeGraph](https://github.com/colbymchenry/codegraph)
+Semantic code intelligence and knowledge graph tool.
+- **Install via npm**:
+  ```bash
+  npm i -g @colbymchenry/codegraph
+  ```
+- **Install via PowerShell (Windows)**:
+  ```powershell
+  irm https://raw.githubusercontent.com/colbymchenry/codegraph/main/install.ps1 | iex
+  ```
+- **Install via curl (macOS / Linux)**:
+  ```bash
+  curl -fsSL https://raw.githubusercontent.com/colbymchenry/codegraph/main/install.sh | sh
+  ```
+
 ## Core Components
 
 ### 1. OpenCode Agents (`.opencode/agents/`)
@@ -31,7 +72,13 @@ Declares system-wide guidelines and rules for agents, including:
 - When to use **CodeGraph** for codebase navigation instead of grep/find.
 - When to trigger the `conventional-commit` and `conventional-branch` skills during Git operations.
 
-## How to Use This Base
+### 5. OpenCode Plugins
+Plugins configured in `opencode.jsonc` and `.opencode/opencode.json`:
+- `magic-compact`
+- `list`
+- `aaa`
+
+## Starting Up
 
 1. **Clone the Repository**:
    ```bash
@@ -48,3 +95,24 @@ Declares system-wide guidelines and rules for agents, including:
 3. **Configure Your Workflow**:
    - Customize agent behavior in `.opencode/agents/` and `AGENTS.md`.
    - Update `opencode.jsonc` and `openspec/config.yaml` to match your project needs.
+4. **Start OpenCode**:
+   Initialize and run OpenCode in your project:
+   ```bash
+   opencode
+   ```
+5. **Start OpenSpec**:
+   Initialize the OpenSpec planning workflow:
+   ```bash
+   openspec init
+   ```
+6. **Start CodeGraph**:
+   Index your codebase for agents and start the MCP server:
+   ```bash
+   codegraph init
+   codegraph serve --mcp
+   ```
+
+## Recommended Tools
+
+1. **[OpenChamber](https://github.com/openchamber/openchamber)**: Desktop and web interface for OpenCode AI agent. A rich interface for OpenCode to review diffs, manage agents, run dev servers, and has features like branchable chat timeline, smart tool UIs, voice mode, multi-agent runs.
+2. **[Spek](https://github.com/spekhq/spek)**: A lightweight, read-only viewer for OpenSpec content. Turns the local OpenSpec directory into a navigable, searchable interface with BDD syntax highlighting, task progress tracking, and full-text search, and it has a VS Code extension and IntelliJ plugin.
