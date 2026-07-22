@@ -1,4 +1,5 @@
 ---
+mode: subagent
 permission:
   codegraph: allow
   edit: deny

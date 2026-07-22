@@ -47,6 +47,7 @@ Semantic code intelligence and knowledge graph tool.
 
 ### 1. OpenCode Agents (`.opencode/agents/`)
 Pre-configured roles that coding assistants assume based on the task:
+- **Maestro**: The master orchestrator that manages OpenSpec workflows and dispatches tasks to sub-agents.
 - **Vector**: For high-level system design and decision-making.
 - **Slick**: For writing code and implementing features.
 - **Scout**: For codebase discovery and pattern mapping.
