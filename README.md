@@ -72,11 +72,15 @@ Declares system-wide guidelines and rules for agents, including:
 - When to use **CodeGraph** for codebase navigation instead of grep/find.
 - When to trigger the `conventional-commit` and `conventional-branch` skills during Git operations.
 
-### 5. OpenCode Plugins
-Plugins configured in `opencode.jsonc` and `.opencode/opencode.json`:
-- `magic-compact`
-- `list`
-- `aaa`
+### 5. Context Compression ([`magic-compact`](https://github.com/aerovato/magic-compact/))
+Lossless context compression plugin for Claude Code and OpenCode. Instead of collapsing the entire session history into a single generic summary, it replaces old assistant turns with high-fidelity summaries and prunes bulky tool outputs (which remain retrievable via `read_omitted_content`).
+- **Install (OpenCode)**:
+  ```bash
+  opencode plugin magic-compact --global
+  ```
+- **Usage**:
+  - Run `/magic-compact [N]` to compact the history (e.g., `/magic-compact 3` keeps the 3 most recent turns as-is and compresses the rest).
+  - Run `/magic-stats` to view cumulative token and cost savings.
 
 ## Starting Up
 
