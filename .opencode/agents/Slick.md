@@ -1,4 +1,5 @@
 ---
+description: Implements atomic code changes and runs verifications.
 mode: subagent
 permission:
   codegraph: allow

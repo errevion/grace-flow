@@ -1,4 +1,5 @@
 ---
+description: Traces and maps existing patterns, conventions, and implementations across the codebase.
 mode: subagent
 permission:
   codegraph: allow
