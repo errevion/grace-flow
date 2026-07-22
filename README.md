@@ -1,8 +1,6 @@
-﻿# clazy-ai
+﻿# Crazy results for lazy people.
 
-**Clazy: Crazy results for lazy people.**
-
-This repository functions as a boilerplate/base template for structured, spec-driven AI-assisted development workflows using **OpenCode**, **OpenSpec**, and **CodeGraph** to automate and guide AI coding agents.
+An opinionated starter template that equips AI coding agents with structured spec-driven workflows, semantic code intelligence, and context compression.
 
 ## Prerequisites
 
