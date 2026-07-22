@@ -80,14 +80,14 @@ This is an **agent-driven** operation - you will read delta specs and directly e
       - Add Purpose section (can be brief, mark as TBD)
       - Add Requirements section with the ADDED requirements
 
-5. **Verify specifications with Reviewer agent**
+5. **Verify specifications with Hawk agent**
 
-   Before finishing the sync, run the Reviewer agent using the Task tool to verify the correctness, completeness, and consistency of the synced specifications:
+   Before finishing the sync, run the Hawk agent using the Task tool to verify the correctness, completeness, and consistency of the synced specifications:
    ```ts
-   // Invoke Reviewer subagent to review the main specs that were created/modified
-   Task(subagent_type: "Reviewer", prompt: "Please review the updated main specifications at <modified/created paths> to ensure correctness, completeness, and consistency with the project guidelines.")
+   // Invoke Hawk subagent to review the main specs that were created/modified
+   Task(subagent_type: "Hawk", prompt: "Please review the updated main specifications at <modified/created paths> to ensure correctness, completeness, and consistency with the project guidelines.")
    ```
-   If the Reviewer identifies critical issues, notify the user and ask if they wish to proceed with the sync or revert changes.
+   If Hawk identifies critical issues, notify the user and ask if they wish to proceed with the sync or revert changes.
 
 6. **Show summary**
 

@@ -47,10 +47,10 @@ Semantic code intelligence and knowledge graph tool.
 
 ### 1. OpenCode Agents (`.opencode/agents/`)
 Pre-configured roles that coding assistants assume based on the task:
-- **Architect**: For high-level system design and decision-making.
-- **Executor**: For writing code and implementing features.
-- **Explorer**: For codebase discovery and pattern mapping.
-- **Reviewer**: For verification and quality assurance.
+- **Vector**: For high-level system design and decision-making.
+- **Slick**: For writing code and implementing features.
+- **Scout**: For codebase discovery and pattern mapping.
+- **Hawk**: For verification and quality assurance.
 
 ### 2. OpenSpec Workflow (`.opencode/commands/` & `openspec/`)
 A structured process for planning and implementing codebase modifications:
