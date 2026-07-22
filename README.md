@@ -89,8 +89,8 @@ Lossless context compression plugin for Claude Code and OpenCode. Instead of col
    git clone <repository-url>
    cd clazy-ai
    ```
-2. **Install OpenCode/OpenSpec Dependencies**:
-   OpenCode and OpenSpec use node packages inside the `.opencode/` folder to run custom scripts.
+2. **Install Local Plugin Dependencies**:
+   OpenCode resolves local plugins and SDK tools from `.opencode/node_modules/` if defined in `.opencode/package.json`.
    ```bash
    cd .opencode
    npm install
