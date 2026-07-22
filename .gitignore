@@ -20,6 +20,8 @@ desktop.ini
 .opencode/bun.lockb
 .opencode/bun.lock
 .opencode/*.backup
+!.opencode/agents/
+!.opencode/agents/*.md
 
 # IDE configurations
 .vscode/

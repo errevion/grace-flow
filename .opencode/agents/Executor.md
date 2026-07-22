@@ -39,3 +39,4 @@ Deliver clear, evidence-based output. Include:
 - **Completion**: A concise statement that the atomic task is finished
 
 Do not attempt to orchestrate, plan, or manage todo lists. Do not spawn subagents. Your only goal is to complete the single delegated task.
+# Unignore test tag
