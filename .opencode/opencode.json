@@ -1,0 +1,10 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "plugin": [
+    "magic-compact",
+    "magic-compact",
+    "magic-compact",
+    "aaa",
+    "list"
+  ]
+}

@@ -1,0 +1,31 @@
+﻿# OS metadata files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs and temp files
+*.log
+*.tmp
+*.bak
+*.backup
+
+# CodeGraph data
+.codegraph/*
+!.codegraph/.gitignore
+
+# OpenCode dependencies and local locks
+.opencode/node_modules/
+.opencode/package.json
+.opencode/package-lock.json
+.opencode/bun.lockb
+.opencode/bun.lock
+.opencode/*.backup
+
+# IDE configurations
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp

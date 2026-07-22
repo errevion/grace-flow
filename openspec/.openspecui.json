@@ -1,0 +1,6 @@
+{
+  "cli": {
+    "command": "cmd.exe /c openspec"
+  },
+  "theme": "dark"
+}
