@@ -47,14 +47,14 @@ Semantic code intelligence and knowledge graph tool.
 
 ### 1. OpenCode Agents (`.opencode/agents/`)
 Pre-configured roles that coding assistants assume based on the task:
-- **Maestro**: The master orchestrator that manages OpenSpec workflows and dispatches tasks to sub-agents.
-- **Vector**: For high-level system design and decision-making.
-- **Slick**: For writing code and implementing features.
-- **Scout**: For codebase discovery and pattern mapping.
-- **Hawk**: For verification and quality assurance.
-- **Spark**: For early-stage ideation, conceptual brainstorming, and technical feasibility checks.
+- **Radagon**: The master orchestrator that manages OpenSpec workflows and dispatches tasks to sub-agents.
+- **Radahn**: For high-level system design and decision-making.
+- **Malenia**: For writing code and implementing features.
+- **Ranni**: For codebase discovery and pattern mapping.
+- **Godfrey**: For verification and quality assurance.
+- **Miquella**: For early-stage ideation, conceptual brainstorming, and technical feasibility checks.
 
-While Maestro is optimized for the OpenSpec workflow, you can tag specific agents directly to force Maestro to delegate to them (e.g. `@Slick review this` or `@Hawk audit this`).
+While Radagon is optimized for the OpenSpec workflow, you can tag specific agents directly to force Radagon to delegate to them (e.g. `@Malenia review this` or `@Godfrey audit this`).
 
 ### 2. OpenSpec Workflow (`.opencode/commands/` & `openspec/`)
 A structured process for planning and implementing codebase modifications:

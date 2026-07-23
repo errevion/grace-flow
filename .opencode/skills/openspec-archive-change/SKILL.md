@@ -69,14 +69,14 @@ Archive a completed change in the experimental workflow.
 
    If user chooses sync, use Task tool (subagent_type: "general-purpose", prompt: "Use Skill tool to invoke openspec-sync-specs for change '<name>'. Delta spec analysis: <include the analyzed delta spec summary>"). Proceed to archive regardless of choice.
 
-5. **Verify change completion with Hawk agent**
+5. **Verify change completion with Godfrey agent**
 
-   Before performing the archive, run the Hawk agent using the Task tool to verify the overall change context, ensuring all architectural specifications and deliverables are complete and consistent:
+   Before performing the archive, run the Godfrey agent using the Task tool to verify the overall change context, ensuring all architectural specifications and deliverables are complete and consistent:
    ```ts
-   // Invoke Hawk subagent to review the final spec and implementation state
-   Task(subagent_type: "Hawk", prompt: "Please review the final specification and implementation state for change '<name>' before archiving. Check that all requirements and verification criteria are met.")
+   // Invoke Godfrey subagent to review the final spec and implementation state
+   Task(subagent_type: "Godfrey", prompt: "Please review the final specification and implementation state for change '<name>' before archiving. Check that all requirements and verification criteria are met.")
    ```
-   If Hawk identifies critical issues, notify the user and prompt them to confirm if they still want to archive the change despite the warnings.
+   If Godfrey identifies critical issues, notify the user and prompt them to confirm if they still want to archive the change despite the warnings.
 
 6. **Perform the archive**
 
