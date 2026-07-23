@@ -59,7 +59,10 @@ Pre-configured roles that coding assistants assume based on the task:
 While Radagon is optimized for the OpenSpec workflow, you can tag specific agents directly to force Radagon to delegate to them (e.g. `@Malenia review this` or `@Godfrey audit this`).
 
 ### 2. OpenSpec Workflow (`.opencode/commands/` & `openspec/`)
+<img width="1984" height="444" alt="Untitled Diagram drawio (1)" src="https://github.com/user-attachments/assets/743e6f10-5fe2-4142-9a53-c391edc3602c" />
+
 A structured process for planning and implementing codebase modifications:
+- `opsx-explore`: Explore ideas without create or commiting.
 - `opsx-propose`: Create design and change proposals.
 - `opsx-apply`: Run implementation tasks sequentially.
 - `opsx-sync`: Synchronize delta specifications with main specs.
