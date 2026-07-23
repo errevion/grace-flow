@@ -52,6 +52,9 @@ Pre-configured roles that coding assistants assume based on the task:
 - **Slick**: For writing code and implementing features.
 - **Scout**: For codebase discovery and pattern mapping.
 - **Hawk**: For verification and quality assurance.
+- **Spark**: For early-stage ideation, conceptual brainstorming, and technical feasibility checks.
+
+While Maestro is optimized for the OpenSpec workflow, you can tag specific agents directly to force Maestro to delegate to them (e.g. `@Slick review this` or `@Hawk audit this`).
 
 ### 2. OpenSpec Workflow (`.opencode/commands/` & `openspec/`)
 A structured process for planning and implementing codebase modifications:
