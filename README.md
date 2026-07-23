@@ -46,6 +46,7 @@ Semantic code intelligence and knowledge graph tool.
 ## Core Components
 
 ### 1. OpenCode Agents (`.opencode/agents/`)
+<img width="2816" height="726" alt="clazy-crop (1)" src="https://github.com/user-attachments/assets/1d72daf5-c7a3-4144-8f07-3a7a451e315f" />
 Pre-configured roles that coding assistants assume based on the task:
 - **Radagon**: The master orchestrator that manages OpenSpec workflows and dispatches tasks to sub-agents.
 - **Radahn**: For high-level system design and decision-making.
