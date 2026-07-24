@@ -1,6 +1,4 @@
-﻿# Work lazy. Ship crazy.
-
-An opinionated starter template that equips AI coding agents with structured spec-driven workflows, semantic code intelligence, and context compression.
+﻿An opinionated starter template that equips AI coding agents with structured spec-driven workflows, semantic code intelligence, and context compression.
 
 ## Prerequisites
 
