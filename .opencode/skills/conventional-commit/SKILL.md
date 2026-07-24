@@ -79,4 +79,6 @@ Refs: #123
 
 ## Usage
 
+Before committing, load the `conventional-branch` skill to check the current branch. Think and confirm if the branch is `main` or `master` and state this to the user. If it is not `main` or `master`, verify if the current branch is correct for the commit being made, and if not, request confirmation from the user first.
+
 When the user asks to commit, stage files and present a Conventional Commit message for confirmation before executing `git commit`. Follow the structure above — use the correct type for the change, include a concise description, and add body/footers when they add context.
