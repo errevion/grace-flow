@@ -1,4 +1,6 @@
-﻿An opinionated starter template that equips AI coding agents with structured spec-driven workflows, semantic code intelligence, and context compression.
+# Lead the tarnished agents straight to Grace.
+ 
+ An opinionated starter template that equips AI coding agents with structured spec-driven workflows, semantic code intelligence, and context compression. Aiming to strip away execution noise and inconsistencies.
 
 ## Prerequisites
 
