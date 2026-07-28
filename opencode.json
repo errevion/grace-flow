@@ -18,8 +18,5 @@
       ],
       "enabled": true
     }
-  },
-  "plugin": [
-    "magic-compact"
-  ]
+  }
 }

@@ -1,13 +1,12 @@
 ---
 name: openspec-sync-specs
 description: Sync delta specs from a change to main specs. Use when the user wants to update main specs with changes from a delta spec, without archiving the change.
-allowed-tools: Bash(openspec:*)
 license: MIT
 compatibility: Requires openspec CLI.
 metadata:
   author: openspec
   version: "1.0"
-  generatedBy: "1.6.0"
+  generatedBy: "1.5.0"
 ---
 
 Sync delta specs from a change to main specs.
@@ -80,16 +79,7 @@ This is an **agent-driven** operation - you will read delta specs and directly e
       - Add Purpose section (can be brief, mark as TBD)
       - Add Requirements section with the ADDED requirements
 
-5. **Verify specifications with Godfrey agent**
-
-   Before finishing the sync, run the Godfrey agent using the Task tool to verify the correctness, completeness, and consistency of the synced specifications:
-   ```ts
-   // Invoke Godfrey subagent to review the main specs that were created/modified
-   Task(subagent_type: "Godfrey", prompt: "Please review the updated main specifications at <modified/created paths> to ensure correctness, completeness, and consistency with the project guidelines.")
-   ```
-   If Godfrey identifies critical issues, notify the user and ask if they wish to proceed with the sync or revert changes.
-
-6. **Show summary**
+5. **Show summary**
 
    After applying all changes, summarize:
    - Which capabilities were updated

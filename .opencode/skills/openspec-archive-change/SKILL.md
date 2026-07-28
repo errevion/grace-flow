@@ -1,13 +1,12 @@
 ---
 name: openspec-archive-change
 description: Archive a completed change in the experimental workflow. Use when the user wants to finalize and archive a change after implementation is complete.
-allowed-tools: Bash(openspec:*)
 license: MIT
 compatibility: Requires openspec CLI.
 metadata:
   author: openspec
   version: "1.0"
-  generatedBy: "1.6.0"
+  generatedBy: "1.5.0"
 ---
 
 Archive a completed change in the experimental workflow.
@@ -69,16 +68,7 @@ Archive a completed change in the experimental workflow.
 
    If user chooses sync, use Task tool (subagent_type: "general-purpose", prompt: "Use Skill tool to invoke openspec-sync-specs for change '<name>'. Delta spec analysis: <include the analyzed delta spec summary>"). Proceed to archive regardless of choice.
 
-5. **Verify change completion with Godfrey agent**
-
-   Before performing the archive, run the Godfrey agent using the Task tool to verify the overall change context, ensuring all architectural specifications and deliverables are complete and consistent:
-   ```ts
-   // Invoke Godfrey subagent to review the final spec and implementation state
-   Task(subagent_type: "Godfrey", prompt: "Please review the final specification and implementation state for change '<name>' before archiving. Check that all requirements and verification criteria are met.")
-   ```
-   If Godfrey identifies critical issues, notify the user and prompt them to confirm if they still want to archive the change despite the warnings.
-
-6. **Perform the archive**
+5. **Perform the archive**
 
    Create an `archive` directory under `planningHome.changesDir` if it doesn't exist:
    ```bash
