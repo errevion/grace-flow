@@ -56,13 +56,10 @@ This template comes pre-configured with several essential OpenCode skills to enh
 
 ## Prerequisites
 
-Before setting out on your quest to restore the codebase, ensure your local environment has the required toolchains:
+Before setting out on your quest to restore the codebase, ensure your local environment is configured with the necessary tools:
 
-### Toolchains & Runtimes
-| Toolchain | Description | Installation |
-| :--- | :--- | :--- |
-| **Node.js & NPM** | JavaScript runtime and package manager. Required to run OpenCode and install OpenSpec. | [Install Node.js & NPM](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) |
-| **uv** | Fast, standalone Python package installer and tool manager. **Does not require a pre-installed system Python**, as `uv` automatically downloads and manages Python environments internally. | `curl -LsSf https://astral.sh/uv/install.sh | sh` (Unix) or `irm https://astral.sh/uv/install.ps1 | iex` (Windows) |
+> [!NOTE]
+> The packages below require **Node.js / NPM** (for OpenCode and OpenSpec) and **uv** (for Graphify) to be installed on your system.
 
 ### Required Packages
 | Package | Description | Installation Command |
