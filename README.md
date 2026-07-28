@@ -26,7 +26,7 @@ A highly agentic, multi-agent workflow featuring 6 specialized agents designed a
   
 ### **[OpenSpec](https://github.com/Fission-AI/openspec) Integration**
 Built-in support for the popular and lightweight Software Design Document (SDD) tool.
-<img width="1327" height="338" alt="51ff2e7c7f294223a3b8601fc239dde1" src="https://github.com/user-attachments/assets/08d244da-c8ef-40b9-b06b-c164a38c2aff" />
+<img width="2424" height="616" alt="51ff2e7c7f294223a3b8601fc239dde1" src="https://github.com/user-attachments/assets/8dc48fc2-2c5c-44d8-a668-fe6543036868" />
 | Stage | Description / Purpose | Key Agents involved |
 | :--- | :--- | :--- |
 | **Explore** | Initial brainstorming, tracing existing code implementations, and determining feasibility. | Marika, Ranni, Radahn |
