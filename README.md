@@ -59,7 +59,7 @@ This template comes pre-configured with several essential OpenCode skills to enh
 Before setting out on your quest to restore the codebase, ensure your local environment is configured with the necessary tools:
 
 > [!NOTE]
-> The packages below require **Node.js / NPM** (for OpenCode and OpenSpec) and **uv** (for Graphify) to be installed on your system.
+> The packages below require [**Node.js / NPM**](https://nodejs.org/en/download) (for OpenCode and OpenSpec) and [**uv**](https://docs.astral.sh/uv/getting-started/installation/) (for Graphify) to be installed on your system.
 
 ### Required Packages
 | Package | Description | Installation Command |
