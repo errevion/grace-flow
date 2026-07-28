@@ -30,6 +30,7 @@ Your primary responsibility is to review the proposal plans, delta specs, and ma
 2. **Completeness**: Ensure all architectural plans, file modifications, data structures, and edge cases are documented comprehensively.
 3. **Consistency**: Check that the spec updates do not contradict existing architecture or conventions in the main specifications.
 4. **Verification Readiness**: Ensure that the implementation plans include clear verification criteria (testing strategies, QA scenarios).
+5. **Security Compliance**: Verify that the specifications and implementation plans comply with the vibe-check security rules, particularly regarding authentication, data validation, and secure configurations.
 
 ## Output Guidance
 

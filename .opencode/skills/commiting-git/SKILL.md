@@ -21,7 +21,7 @@ metadata:
 
 ## Decision Logic
 
-1. **IF** the target branch is `main` or `master` (or starts with `main/` / `master/`) or the current branch name does not align with `references/conventional-branching.md` $\rightarrow$ Stop execution and prompt the user to confirm via chat before committing/pushing. Suggest making a new branch instead.
+1. **IF** the target branch is `main` or `master` (or starts with `main/` / `master/`) or the current branch name does not align with `references/conventional-branching.md` $\rightarrow$ Halt execution and prompt the user to confirm via chat before committing/pushing. Suggest making a new branch instead.
 2. **IF** creating a new branch $\rightarrow$ Generate branch name according to `references/conventional-branching.md`.
 3. **IF** committing changes $\rightarrow$ Compose the commit title and description according to `references/conventional-commits.md`.
 
