@@ -4,9 +4,9 @@
 
 ## Project Aims
 
-Grace Flow is designed with a clear hierarchy of priorities:
-1. **Minimize Agent Drift**: Keeping AI agents on track and focused on the task at hand.
-2. **Optimize Token Usage**: Ensuring communication and context remain efficient and cost-effective.
+Grace Flow provides the Guidance of Grace to your development workflow, designed with a clear hierarchy of priorities:
+1. **Minimize Agent Drift**: Keeping your tarnished agents on track and focused on their destined tasks.
+2. **Optimize Token Usage**: Ensuring communication and context remain efficient, saving your hard-earned runes.
 
 The result is a highly customizable, anti-bloated foundation for your OpenCode projects.
 
@@ -26,16 +26,23 @@ A highly agentic, multi-agent workflow featuring 6 specialized agents designed a
   
 ### **[OpenSpec](https://github.com/Fission-AI/openspec) Integration**
 Built-in support for the popular and lightweight Software Design Document (SDD) tool.
+| Stage | Description / Purpose | Key Agents involved |
+| :--- | :--- | :--- |
+| **Explore** | Initial brainstorming, tracing existing code implementations, and determining feasibility. | Marika, Ranni, Radahn |
+| **Propose** | Constructing detailed architectural blueprints and mapping file changes under `openspec/`. | Radagon, Ranni, Radahn |
+| **Apply** | Executing code changes, running test commands, and gathering verification evidence. | Radagon, Malenia |
+| **Sync** | Reviewing specifications for correctness and merging delta specs into main files. | Radagon, Godfrey, Malenia |
+| **Archive** | Archiving completed proposal history once code changes are validated and active. | Radagon, Malenia |
 
 ### **[Graphify](https://github.com/Graphify-Labs/graphify)**
-Transform your project's knowledge into an easily navigable graph.
+Map your project's knowledge into an easily navigable dependency graph.
 
 ### **Token Optimization**
 Integrated with [Dynamic Context Pruning](https://github.com/Opencode-DCP/opencode-dynamic-context-pruning) and the [Caveman](https://github.com/juliusbrussee/caveman) plugin to drastically reduce token consumption without losing technical accuracy.
 
-## Custom Skills
+## Ashes of War (Skills)
 
-This template comes pre-configured with several essential OpenCode skills to enhance agent capabilities:
+This template comes pre-configured with several essential OpenCode skills to enhance their capabilities:
 
 | Skill | Description | Trigger Conditions |
 | :--- | :--- | :--- |
@@ -46,6 +53,8 @@ This template comes pre-configured with several essential OpenCode skills to enh
 | `reflecting-plan` | Stress-tests implementation designs and plans, uncovering hidden dependencies and assumptions before coding begins. | Triggers when reviewing design blueprints or executing non-spec plans. Explores the codebase first, then presents one question at a time paired with a recommended solution. |
 
 ## Prerequisites
+
+Before setting out on your quest to restore the codebase, ensure your local environment has the required toolchains:
 
 ### Toolchains & Runtimes
 | Toolchain | Description | Installation |
@@ -61,6 +70,8 @@ This template comes pre-configured with several essential OpenCode skills to enh
 | **Graphify** | Analyzes the codebase and updates the dependency graph. | `uv tool install graphifyy` |
 
 ## Getting Started
+
+Follow the guidance of grace to set up your agentic workspace:
 
 1. **Clone the repository**:
    ```bash
