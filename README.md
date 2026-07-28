@@ -37,7 +37,7 @@ Built-in support for the popular and lightweight Software Design Document (SDD) 
 
 ### **[Graphify](https://github.com/Graphify-Labs/graphify)**
 Map your project's knowledge into an easily navigable dependency graph.
-<img width="1400" height="343" alt="graph-hero" src="https://github.com/user-attachments/assets/61ac0e47-5cee-456b-be60-8842bfcf1652" />
+<img width="1327" height="338" alt="51ff2e7c7f294223a3b8601fc239dde1" src="https://github.com/user-attachments/assets/19b41b09-e432-469a-9983-696f9ef7f0c1" />
 
 ### **Token Optimization**
 Integrated with [Dynamic Context Pruning](https://github.com/Opencode-DCP/opencode-dynamic-context-pruning) and the [Caveman](https://github.com/juliusbrussee/caveman) plugin to drastically reduce token consumption without losing technical accuracy.
