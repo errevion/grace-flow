@@ -30,3 +30,11 @@ desktop.ini
 
 # graphify
 graphify-out/
+
+# Caveman and plugins
+.caveman-active
+.opencode/plugins/**/node_modules/
+.opencode/plugins/**/package-lock.json
+.opencode/plugins/**/bun.lockb
+.opencode/plugins/**/bun.lock
+!.opencode/plugins/**/package.json
