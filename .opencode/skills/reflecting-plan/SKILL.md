@@ -1,6 +1,6 @@
 ---
-name: grill-me
-description: Use when the user asks to stress-test a plan, get grilled on their design, or explicitly says "grill me".
+name: reflecting-plan
+description: Use when the user asks to stress-test a plan or design, or when the agent is about to make/execute a non-spec plan (a plan not defined in the official specification), to reflect on assumptions and dependencies.
 license: MIT
 compatibility: opencode
 metadata:
@@ -8,13 +8,13 @@ metadata:
   category: feedback-loop
 ---
 
-# Grill Me (`grill-me`)
+# Reflecting Plan (`reflecting-plan`)
 
 ## Overview & Quick Reference
 
 | Action | Goal | Execution Strategy |
 | :--- | :--- | :--- |
-| **Stress-test plan/design** | Probe assumptions and dependencies | Ask questions one at a time, providing a recommended answer. |
+| **Stress-test plan/design** | Probe assumptions and dependencies of a proposed or non-spec plan | Ask questions one at a time, providing a recommended answer. |
 | **Codebase Exploration** | Resolve queries via code first | Check codebase before asking questions. |
 
 ---
