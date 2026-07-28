@@ -9,10 +9,6 @@ desktop.ini
 *.bak
 *.backup
 
-# CodeGraph data
-.codegraph/*
-!.codegraph/.gitignore
-
 # OpenCode dependencies and local locks
 .opencode/node_modules/
 .opencode/package.json
