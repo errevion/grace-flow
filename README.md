@@ -14,7 +14,7 @@ The result is a highly customizable, anti-bloated foundation for your OpenCode p
 
 ### **Orchestrator-Worker Dynamic** 
 A highly agentic, multi-agent workflow featuring 6 specialized agents designed around the OpenSpec SDD lifecycle.
-
+<img width="2816" height="726" alt="clazy-crop (1)" src="https://github.com/user-attachments/assets/69d19799-935b-4b33-8086-6fb5271ea9bd" />
   | Agent | Role | Description |
   | :--- | :--- | :--- |
   | **Radagon** | Master Orchestrator | The central driver. Coordinates the entire lifecycle by analyzing requirements and dispatching tasks to specialized sub-agents (`Ranni`, `Radahn`, `Malenia`, `Godfrey`) to carry out the four main OpenSpec operations: Propose, Apply, Sync, and Archive. |
@@ -26,6 +26,7 @@ A highly agentic, multi-agent workflow featuring 6 specialized agents designed a
   
 ### **[OpenSpec](https://github.com/Fission-AI/openspec) Integration**
 Built-in support for the popular and lightweight Software Design Document (SDD) tool.
+<img width="1401" height="401" alt="51ff2e7c7f294223a3b8601fc239dde1" src="https://github.com/user-attachments/assets/b44f3480-6b57-43ec-ae3c-fd8c11a934e5" />
 | Stage | Description / Purpose | Key Agents involved |
 | :--- | :--- | :--- |
 | **Explore** | Initial brainstorming, tracing existing code implementations, and determining feasibility. | Marika, Ranni, Radahn |
@@ -36,6 +37,7 @@ Built-in support for the popular and lightweight Software Design Document (SDD) 
 
 ### **[Graphify](https://github.com/Graphify-Labs/graphify)**
 Map your project's knowledge into an easily navigable dependency graph.
+<img width="1400" height="343" alt="graph-hero" src="https://github.com/user-attachments/assets/61ac0e47-5cee-456b-be60-8842bfcf1652" />
 
 ### **Token Optimization**
 Integrated with [Dynamic Context Pruning](https://github.com/Opencode-DCP/opencode-dynamic-context-pruning) and the [Caveman](https://github.com/juliusbrussee/caveman) plugin to drastically reduce token consumption without losing technical accuracy.
