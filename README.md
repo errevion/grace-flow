@@ -53,6 +53,8 @@ This template comes pre-configured with several essential OpenCode skills to enh
 | `creating-and-editing-skill` | Enforces structural guidelines, deterministic decision routing, and token efficiency limits when building or editing OpenCode agent skills. | Triggers when authoring or refactoring any `.opencode/skills/**/*.md` file. Requires trigger-focused frontmatter, logic matrices, and keeping `SKILL.md` under 500 lines. |
 | `creating-and-editing-code` | Performs safety checks ("vibe-checks") against the codebase security requirements before files are created or modified. | Triggers automatically during file edits or creation. Cross-references changes with `./references/vibe-check.md` to prevent secrets exposure, SQL injection, and bad CORS. |
 | `reflecting-plan` | Stress-tests implementation designs and plans, uncovering hidden dependencies and assumptions before coding begins. | Triggers when reviewing design blueprints or executing non-spec plans. Explores the codebase first, then presents one question at a time paired with a recommended solution. |
+| `design-md` | Use when analyzing a codebase, website, or UI project to synthesize a semantic design system into a DESIGN.md file. | Triggers when analyzing local styling files or remote URLs to extract visual themes, colors, typography, layout, and component aesthetics into a structured design system. |
+| `editing-agents-md` | Enforces compliance with OpenCode system prompt standards when editing or maintaining agent developer guidelines. | Triggers when modifying AGENTS.md or project-specific developer guidelines. Enforces strict length limits (under 50 lines) and absolute imperatives (`ALWAYS`, `NEVER`). |
 
 ## Prerequisites
 
