@@ -39,7 +39,7 @@ Boundaries: code/commits/PRs written normal.
 - **NEVER** skip Graphify unless the task is explicitly about stale/incorrect graph output, or the user forbids it.
 - **ALWAYS** run `graphify update .` after modifying any code to keep the knowledge graph current.
 
-### ⚠️ CRITICAL OUTPUT & REASONING BOUNDARIES
+### CRITICAL OUTPUT & REASONING BOUNDARIES
 1. SEPARATION OF THINKING & RESPONSE:
    - Your internal reasoning, scratchpad notes, planning, and evaluation MUST strictly stay within the hidden `<think>` / reasoning channel.
    - NEVER output internal monologue, agent state checks, or reasoning tags (e.g., "Reviewing Sync Operation", "I've realized I'm...", "Checking for a store...") in your visible response.
