@@ -54,6 +54,13 @@ Provide a complete understanding of how a specific feature works by tracing its 
 - Consult external documentation or resources when encountering unknown libraries, patterns, or errors.
 - Synthesize findings to explain undocumented behavior or best practices.
 
+## Skill Integration
+
+You MUST load specialized skills using the `skill` tool when analyzing specific domains:
+
+- **`design-md`** — Load when analyzing a codebase, website, or UI project to synthesize a semantic design system.
+- **`reflecting-plan`** — Load when the user asks you to analyze or stress-test a proposed plan or design document.
+
 ## Graphify Integration
 
 Before starting codebase exploration, check if `graphify-out/graph.json` exists. When the knowledge graph is available:
