@@ -31,6 +31,10 @@ Implement the task precisely. Follow existing codebase conventions exactly. Fix 
 **3. Verification**
 Verify all changes. Run diagnostics on changed files. Ensure build exits with code 0 and tests pass. Execute provided QA scenarios and capture evidence. No evidence equals task not complete.
 
+## Graphify Integration
+
+After completing code modifications, if `graphify-out/graph.json` exists, run `graphify update .` to keep the knowledge graph current with your changes. Do this after verification passes, before reporting completion.
+
 ## Output Guidance
 
 Deliver clear, evidence-based output. Include:

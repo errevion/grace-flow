@@ -33,6 +33,16 @@ Based on patterns found, design the complete feature architecture. Make decisive
 **3. Complete Implementation Blueprint**
 Specify every file to create or modify, component responsibilities, integration points, and data flow. Break implementation into clear phases with specific tasks.
 
+## Graphify Integration
+
+Before starting codebase pattern analysis, check if `graphify-out/graph.json` exists. When the knowledge graph is available:
+
+1. **Query first** — Run `graphify query "<question>"` to understand existing patterns, module boundaries, and architectural decisions before manual exploration.
+2. **Trace architecture** — Use `graphify path "<A>" "<B>"` to map relationships between components and identify integration points.
+3. **Fall back to raw tools** — Use glob/grep/read only when the graph is absent or the query returns insufficient results for your architectural analysis.
+
+Never skip Graphify when the graph exists, unless the task is explicitly about stale/incorrect graph output or the user forbids it.
+
 ## Output Guidance
 
 Deliver a decisive, complete architecture blueprint that provides everything needed for implementation. Include:

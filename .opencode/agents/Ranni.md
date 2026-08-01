@@ -54,6 +54,17 @@ Provide a complete understanding of how a specific feature works by tracing its 
 - Consult external documentation or resources when encountering unknown libraries, patterns, or errors.
 - Synthesize findings to explain undocumented behavior or best practices.
 
+## Graphify Integration
+
+Before starting codebase exploration, check if `graphify-out/graph.json` exists. When the knowledge graph is available:
+
+1. **Start with Graphify** — Run `graphify query "<question>"` as the first step for any codebase question. This provides structural context faster than raw file exploration.
+2. **Trace connections** — Use `graphify path "<A>" "<B>"` to trace relationships between components instead of manually following call chains.
+3. **Explain concepts** — Use `graphify explain "<concept>"` for quick understanding of unfamiliar nodes before diving into source files.
+4. **Fall back to raw tools** — Use glob/grep/read only when the graph is absent, the query returns insufficient results, or you need line-level detail the graph doesn't capture.
+
+Never skip Graphify when the graph exists, unless the task is explicitly about stale/incorrect graph output or the user forbids it.
+
 ## Output Guidance
 
 Provide a comprehensive analysis that helps developers understand the feature deeply enough to modify or extend it. Include:

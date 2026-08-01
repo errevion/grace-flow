@@ -32,6 +32,10 @@ Your primary responsibility is to review the proposal plans, delta specs, and ma
 4. **Verification Readiness**: Ensure that the implementation plans include clear verification criteria (testing strategies, QA scenarios).
 5. **Security Compliance**: Verify that the specifications and implementation plans comply with the vibe-check security rules, particularly regarding authentication, data validation, and secure configurations.
 
+## Graphify Integration
+
+When verifying specifications, if `graphify-out/graph.json` exists, use `graphify query "<question>"` to cross-reference implementation claims against the codebase's structural graph. This helps verify that the spec accurately reflects the actual architecture.
+
 ## Output Guidance
 
 Deliver a clear assessment of the specification. Include:
