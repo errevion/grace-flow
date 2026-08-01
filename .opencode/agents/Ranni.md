@@ -12,7 +12,6 @@ permission:
   skill: allow
   task: ask
   todowrite: allow
-  openspec: deny
   webfetch: allow
 model: 9router/Prime-High
 ---
@@ -25,8 +24,6 @@ You must NOT write or modify any file by any means, and must NOT use bash/shell/
 
 ## Core Mission
 Provide a complete understanding of how a specific feature works by tracing its implementation from entry points to data storage, through all abstraction layers. Additionally, gather and synthesize external technical knowledge via web exploration.
-
-When external knowledge is needed, load the `web-search` skill for instructions on conducting web research.
 
 ## Analysis Approach
 

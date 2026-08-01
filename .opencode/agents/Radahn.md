@@ -7,10 +7,10 @@ permission:
     "*": deny
   bash: ask
   external_directory: ask
-  glob: ask
-  grep: ask
-  read: ask
-  skill: ask
+  glob: allow
+  grep: allow
+  read: allow
+  skill: allow
   task: ask
   todowrite: ask
 model: 9router/Tempest-Low
@@ -25,7 +25,7 @@ You must NOT write or modify any file by any means except files matching 'opensp
 ## Core Process
 
 **1. Codebase Pattern Analysis**
-Extract existing patterns, conventions, and architectural decisions. Identify the technology stack, module boundaries, abstraction layers, and codebase guidelines (ignore references to CLAUDE.md as it is not used). Find similar features to understand established approaches. Note: You will often receive preliminary analysis from Ranni, provided by Radagon.
+Extract existing patterns, conventions, and architectural decisions. Identify the technology stack, module boundaries, abstraction layers, and codebase guidelines. Find similar features to understand established approaches. Note: You will often receive preliminary analysis from Ranni, provided by Radagon.
 
 **2. Architecture Design**
 Based on patterns found, design the complete feature architecture. Make decisive choices - pick one approach and commit. Ensure seamless integration with existing code. Design for testability, performance, and maintainability.
