@@ -22,7 +22,7 @@ A highly agentic, multi-agent workflow featuring 6 specialized agents designed a
   | **Ranni** | Explorer & Researcher | Specializes in deep codebase discovery, tracing execution flows from entry points to data stores, and mapping design patterns. Conducts external web research to solve technical hurdles. |
   | **Radahn** | The Architect | Analyzes codebase patterns to make decisive design decisions, generating complete architectural blueprints, component specifications, data flows, and phased implementation maps within `openspec/*`. |
   | **Malenia** | The Implementer | Executes atomic tasks delegated by Radagon or Radahn. Handles precise code changes following established conventions, runs verification testing/QA, and gathers execution evidence. Can also be dispatched solo for one-time tasks. |
-  | **Godfrey** | The Auditor | Verifies the correctness, completeness, consistency, and security of specifications in `docs/openspec` before syncing and archiving. Does not modify codebase files. |
+  | **Godfrey** | The Auditor | Verifies the correctness, completeness, consistency, and security of specifications in `openspec/` before syncing and archiving. Does not modify codebase files. |
   
 ### **[OpenSpec](https://github.com/Fission-AI/openspec) Integration**
 Built-in support for the popular and lightweight Software Design Document (SDD) tool.
@@ -55,6 +55,14 @@ This template comes pre-configured with several essential OpenCode skills to enh
 | `reflecting-plan` | Stress-tests implementation designs and plans, uncovering hidden dependencies and assumptions before coding begins. | Triggers when reviewing design blueprints or executing non-spec plans. Explores the codebase first, then presents one question at a time paired with a recommended solution. |
 | `design-md` | Use when analyzing a codebase, website, or UI project to synthesize a semantic design system into a DESIGN.md file. | Triggers when analyzing local styling files or remote URLs to extract visual themes, colors, typography, layout, and component aesthetics into a structured design system. |
 | `editing-agents-md` | Enforces compliance with OpenCode system prompt standards when editing or maintaining agent developer guidelines. | Triggers when modifying AGENTS.md or project-specific developer guidelines. Enforces strict length limits (under 50 lines) and absolute imperatives (`ALWAYS`, `NEVER`). |
+| `caveman` | Ultra-compressed communication mode. Cuts output tokens ~65% by speaking tersely while keeping full technical accuracy. Supports multiple intensity levels. | Triggers when user says "caveman mode", invokes `/caveman`, or requests token efficiency. |
+| `graphify` | Turns codebase content into a persistent knowledge graph with community detection and query/path/explain tools. | Triggers for any codebase architecture question, especially when `graphify-out/` exists. Also triggered via `/graphify` command. |
+| `hallmark` | Anti-AI-slop design skill for greenfield pages, audits, redesigns, and design extraction from URLs or screenshots. | Triggers when building new apps/landing pages, redesigning, or invoking Hallmark by name. |
+| `openspec-explore` | Enter explore mode for thinking through ideas, investigating problems, and clarifying requirements before or during a change. | Triggers when user wants to brainstorm or explore before formal specification. |
+| `openspec-propose` | Propose a new change with all artifacts (design, specs, tasks) generated in one step. | Triggers when user describes what they want to build and needs a complete proposal. |
+| `openspec-apply-change` | Implement tasks from an OpenSpec change, executing code modifications following the spec. | Triggers when user wants to start or continue implementing tasks from a proposal. |
+| `openspec-sync-specs` | Sync delta specs from a change to main specs without archiving. | Triggers when user wants to update main specs with delta changes. |
+| `openspec-archive-change` | Archive a completed change after implementation is validated. | Triggers when user wants to finalize and archive a completed change. |
 
 ## Prerequisites
 

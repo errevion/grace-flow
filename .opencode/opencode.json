@@ -3,6 +3,7 @@
   "plugin": [
     ".opencode/plugins/graphify.js",
     ".opencode/plugins/caveman/plugin.js",
+    ".opencode/plugins/model-switcher.js",
     "@tarquinen/opencode-dcp@latest"
   ],
   "agent": {
