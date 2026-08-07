@@ -1,3 +1,7 @@
+> [!NOTE]
+> This project is discontinued and migrated to [DaemonEX](https://github.com/errevion/DaemonEX).
+
+
 # Lead the tarnished agents, straight to Grace.
 
 > A simple, lightweight, and opinionated starter template built exclusively for OpenCode.
