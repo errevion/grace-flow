@@ -1,5 +1,5 @@
 > [!NOTE]
-> This project is discontinued and migrated to [DaemonEX](https://github.com/errevion/DaemonEX).
+> This project is discontinued and migrated to the new workflow project.
 
 
 # Lead the tarnished agents, straight to Grace.
